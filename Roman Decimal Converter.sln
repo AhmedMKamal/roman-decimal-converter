@@ -7,6 +7,18 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Roman Decimal Converter GUI
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Roman Decimal Converter Lib", "RomanDecimalConverterLib\RomanDecimalConverterLib.vcxproj", "{E970A260-24C7-4808-A9E7-67470B75FBC4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D30904E7-F0C7-432E-A4E6-D8BB0D74D7A4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E86BD28A-CE62-4D4E-B39E-48472B5F2A26}"
+	ProjectSection(SolutionItems) = preProject
+		.github\roman-decimal-converter-gui.png = .github\roman-decimal-converter-gui.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -32,6 +44,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E86BD28A-CE62-4D4E-B39E-48472B5F2A26} = {D30904E7-F0C7-432E-A4E6-D8BB0D74D7A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6F27F77-62DC-49F2-ACF9-537735AACFB4}
